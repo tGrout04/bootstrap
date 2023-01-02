@@ -15,3 +15,12 @@
     background-position: 0 0;
     padding-left: 1.5rem;
 }
+
+.bi {
+    background-color: white;
+    transform: translateX(36px);
+}
+
+.form-control {
+    outline: none;
+}
