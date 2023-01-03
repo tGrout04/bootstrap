@@ -1,25 +1,25 @@
 .navbar-brand img {
-    width: 250px;
-    height: 60px;
+  width: 250px;
+  height: 60px;
 
-    background-color: white;
+  background-color: white;
 }
 
 .about {
-    list-style: none;
+  list-style: none;
 }
 
 .about-item {
-    padding-left: 1.5rem;
+  padding-left: 1.5rem;
 
-    background-image: url(img/icons/motorcyclesolid.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: 1.2em 1.2em;
+  background-image: url(/assets/img/icons/motorcycle-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 1.2em 1.2em;
 }
 
 .bi {
-    transform: translateX(27px);
+  transform: translateX(27px);
 
-    background-color: white;
+  background-color: white;
 }
