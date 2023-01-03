@@ -18,9 +18,5 @@
 
 .bi {
     background-color: white;
-    transform: translateX(36px);
-}
-
-.form-control {
-    outline: none;
+    transform: translateX(27px);
 }

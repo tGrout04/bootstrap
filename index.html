@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap demo</title>
-  <link href="assets/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/bootstrap-5.2.3-dist/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="/assets/img/Yamaha-Logo-PNG-Pic.png" alt="yamaha">
@@ -52,6 +52,7 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Главная</a>
             </li>
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -59,17 +60,15 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Новые Yamaha 2022</a></li>
-                <hr>
                 <li><a class="dropdown-item" href="#">Будущие модели</a></li>
-                <hr>
                 <li><a class="dropdown-item" href="#">Акции</a></li>
-                <hr>
                 <li><a class="dropdown-item" href="#">MyRide App</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
                 <li><a class="dropdown-item" href="#">Смотреть все</a></li>
               </ul>
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -77,16 +76,13 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Мотоциклы</a></li>
-                <hr>
                 <li><a class="dropdown-item" href="#">Скутеры</a></li>
-                <hr>
                 <li><a class="dropdown-item" href="#">Водная техника</a></li>
-                <hr>
                 <li><a class="dropdown-item" href="#">Мотовездеходы</a></li>
-                <hr>
                 <li><a class="dropdown-item" href="#">Снег</a></li>
               </ul>
             </li>
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -94,7 +90,6 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Условия гарантии</a></li>
-                <hr>
                 <li><a class="dropdown-item" href="#">Каталог запчастей</a></li>
                 <li>
                   <hr class="dropdown-divider">
@@ -126,8 +121,7 @@
                 Про Квадроциклы
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="collapse"
-              aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
               <div class="accordion-body">
                 <p class="about-title"><b>Квадроцикл</b> – это мощная техника, дающая ощущение свободы на бездорожье.
                   Каждый раз
@@ -195,6 +189,7 @@
               </div>
             </div>
           </div>
+
           <div class="accordion-item mb-4">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -202,8 +197,7 @@
                 Про Мотоциклы
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="collapse"
-              aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
               <div class="accordion-body">
                 <p class="about-title">
                   <b>Мотоцикл</b> – не просто средство передвижения. Для многих людей это двухколесный железный друг,
@@ -268,6 +262,7 @@
               </div>
             </div>
           </div>
+
           <div class="accordion-item mb-4">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -275,8 +270,7 @@
                 Про Снегоходы
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="collapse"
-              aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
               <div class="accordion-body">
                 <p class="about-title">
                   <b>Снегоход</b> — широко используемая машина, но что мы в действительности знаем о ней?
@@ -337,6 +331,7 @@
               </div>
             </div>
           </div>
+
           <div class="accordion-item mb-4">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -344,8 +339,7 @@
                 Про Yamaha
               </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="collapse"
-              data-bs-parent="collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
               <div class="accordion-body">
                 <p class="about-title"><b>Yamaha (рус. Ямаха)</b> — японская компания, крупнейший производитель
                   музыкальных инструментов,
@@ -416,29 +410,35 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
               aria-label="Slide 4"></button>
           </div>
+
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="https://mobimg.b-cdn.net/v3/fetch/6b/6b004bf2c5fe70d2a23d94af31fe6629.jpeg?h=900&r=0.5"
                 class="d-block w-100" alt="...">
             </div>
+
             <div class="carousel-item">
               <img src="https://mobimg.b-cdn.net/v3/fetch/69/696b36b6650e88bb9dfcc6ffeff12c3b.jpeg?h=900&r=0.5"
                 class="d-block w-100" alt="...">
             </div>
+
             <div class="carousel-item">
               <img src="https://mobimg.b-cdn.net/v3/fetch/80/80e7963a21da9499aba63d18d30f87ad.jpeg?h=900&r=0.5"
                 class="d-block w-100" alt="...">
             </div>
+
             <div class="carousel-item">
               <img src="https://mobimg.b-cdn.net/v3/fetch/d1/d114d147676588f8c97509961ae07fa4.jpeg?h=1200&r=0.5"
                 class="d-block w-100" alt="...">
             </div>
           </div>
+
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
+
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -448,7 +448,7 @@
 
       </div>
       <div class="mb-4 col-xxl-2 col-xl-12 col-lg-6">
-        <button type="button" class="btn btn-primary bg-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-primary bg-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
           Форма регистрации
         </button>
       </div>
@@ -456,12 +456,12 @@
   </div>
 
 
-  <footer class="footer bg-dark py-2">
+  <footer class="footer bg-primary py-2">
     <div class="container">
       <div class="row">
         <div class="text-center col">
 
-          <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
             <div class="col mb-3">
               <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
                 <img class="bi me-2" width="45" height="41" src="/assets/img/logo.png" alt="...">
@@ -473,8 +473,9 @@
 
             </div>
 
-            <div class="col mb-3 text-white">
-              <h5>Социальные сети</h5>
+            <div class="col mb-3">
+              <h5 class="pe-4 text-white">Соц.сети</h5>
+              <hr class="bg-light">
               <ul class="nav flex-column">
                 <li class="nav-item mb-2">
                   <a href="#" class="nav-link p-0 text-muted">
@@ -504,28 +505,30 @@
               </ul>
             </div>
 
-            <div class="col mb-3 text-white">
-              <h5>О нас</h5>
+            <div class="col mb-3">
+              <h5 class="text-white pe-4">О нас</h5>
+              <hr class="bg-light">
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">История</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Адрес</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Контакты</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">График</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Отзывы</a></li>
+                <li class="nav-item mb-2 ps-2"><a href="#" class="nav-link p-0 text-muted">История</a></li>
+                <li class="nav-item mb-2 ps-2"><a href="#" class="nav-link p-0 text-muted">Адрес</a></li>
+                <li class="nav-item mb-2 ps-2"><a href="#" class="nav-link p-0 text-muted">Контакты</a></li>
+                <li class="nav-item mb-2 ps-2"><a href="#" class="nav-link p-0 text-muted">График</a></li>
+                <li class="nav-item mb-2 ps-2"><a href="#" class="nav-link p-0 text-muted">Отзывы</a></li>
               </ul>
             </div>
 
-            <div class="col mb-3 text-white">
-              <h5>Прочее</h5>
+            <div class="col mb-3">
+              <h5 class="text-white pe-4">Прочее</h5>
+              <hr class="bg-light">
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Бизнес</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Сотрудничество</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Тех.поддержка</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Каталог запчастей</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Актуальное</a></li>
+                <li class="nav-item mb-2 ps-1"><a href="#" class="nav-link p-0 text-muted">Бизнес</a></li>
+                <li class="nav-item mb-2 ps-1"><a href="#" class="nav-link p-0 text-muted">Сотрудничество</a></li>
+                <li class="nav-item mb-2 ps-1"><a href="#" class="nav-link p-0 text-muted">Тех.поддержка</a></li>
+                <li class="nav-item mb-2 ps-1"><a href="#" class="nav-link p-0 text-muted">Каталог запчастей</a></li>
+                <li class="nav-item mb-2 ps-1"><a href="#" class="nav-link p-0 text-muted">Актуальное</a></li>
               </ul>
             </div>
-          </footer>
+          </div>
 
         </div>
       </div>
@@ -570,10 +573,10 @@
 
             <div class="row">
               <div class="col">
-                <button class="btn btn-primary w-100 btn-lg bg-dark" type="submit">Отправить</button>
+                <button class="btn btn-primary w-100 btn-sm bg-primary" type="submit">Отправить</button>
               </div>
               <div class="col">
-                <button class="btn btn-primary w-100 btn-lg bg-dark" type="reset">Сбросить</button>
+                <button class="btn btn-primary w-100 btn-sm bg-primary" type="reset">Сбросить</button>
               </div>
             </div>
           </form>
