@@ -1,31 +1,23 @@
-.navbar-brand img
-{
-    width: 250px;
-    height: 60px;
-
-    background-color: white;
+.navbar-brand img{
+  width:250px;
+  height:60px;
+  background-color:white;
 }
 
-.about
-{
-    list-style: none;
+.about{
+  list-style:none;
 }
 
-.about-item
-{
-    padding-left: 1.5rem;
-
-    background-image: url(/assets/img/icons/motorcycle-solid.svg);
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: 1.2em 1.2em;
+.about-item{
+  padding-left:1.5rem;
+  background-image:url(assets/img/icons/motorcycle-solid.svg);
+  background-repeat:no-repeat;
+  background-position:0 0;
+  background-size:1.2em 1.2em;
 }
 
-.bi
-{
-    -webkit-transform: translateX(27px);
-        -ms-transform: translateX(27px);
-            transform: translateX(27px);
-
-    background-color: white;
+.bi{
+  transform:translateX(27px);
+  background-color:white;
 }
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnNjc3MiLCJzdHlsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxXQUFBO0VBQ0EsV0FBQTtFQUVBLHNCQUFBO0FDQUo7O0FER0E7RUFDSSxlQUFBO0FDQUo7O0FER0E7RUFDSSxtQkFBQTtFQUVBLDJEQUFBO0VBQ0EsMkJBQUE7RUFDQSx1QkFBQTtFQUNBLDJCQUFBO0FDREo7O0FESUE7RUFDSSwwQkFBQTtFQUVBLHNCQUFBO0FDRkoiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdmJhci1icmFuZCBpbWcge1xuICAgIHdpZHRoOiAyNTBweDtcbiAgICBoZWlnaHQ6IDYwcHg7XG5cbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbn1cblxuLmFib3V0IHtcbiAgICBsaXN0LXN0eWxlOiBub25lO1xufVxuXG4uYWJvdXQtaXRlbSB7XG4gICAgcGFkZGluZy1sZWZ0OiAxLjVyZW07XG5cbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoYXNzZXRzL2ltZy9pY29ucy9tb3RvcmN5Y2xlLXNvbGlkLnN2Zyk7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAwIDA7XG4gICAgYmFja2dyb3VuZC1zaXplOiAxLjJlbSAxLjJlbTtcbn1cblxuLmJpIHtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoMjdweCk7XG5cbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbn0iLCIubmF2YmFyLWJyYW5kIGltZyB7XG4gIHdpZHRoOiAyNTBweDtcbiAgaGVpZ2h0OiA2MHB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbn1cblxuLmFib3V0IHtcbiAgbGlzdC1zdHlsZTogbm9uZTtcbn1cblxuLmFib3V0LWl0ZW0ge1xuICBwYWRkaW5nLWxlZnQ6IDEuNXJlbTtcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKGFzc2V0cy9pbWcvaWNvbnMvbW90b3JjeWNsZS1zb2xpZC5zdmcpO1xuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xuICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAwIDA7XG4gIGJhY2tncm91bmQtc2l6ZTogMS4yZW0gMS4yZW07XG59XG5cbi5iaSB7XG4gIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgyN3B4KTtcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG59Il19 */
